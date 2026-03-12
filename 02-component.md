@@ -30,7 +30,13 @@ function Card(){
          |
    ----------------
    |      |      |
- <Card/> <Card/> <Card/>   ← render
+ <Card/> <Card/> <Card/>   ← render anywhere
 ```
 
 👉 A component can be **written once and rendered multiple times**, similar to **calling a function**.
+
+👉 Use **capital letters for component names**, when rendering.  
+- Example: `function Card(){...}` → `<Card />`
+
+
+
