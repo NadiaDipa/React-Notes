@@ -1,14 +1,15 @@
 # JSX (JavaScript XML)
 
-**Definition:**
-JSX = **JavaScript + HTML এর মতো syntax**। React এ UI বানানোর জন্য use করা হয়।
+👉 JSX = JavaScript + HTML syntax for UI in React.
+
 
 
 ---
 
 ## 1️⃣ One Parent Element
 
-**Explanation:** JSX এ একবারে multiple element return করতে গেলে **একটা parent element** লাগবে।
+👉 In JSX, multiple elements must be inside a **single parent**.
+
 **Example:**
 
 ```jsx
@@ -23,7 +24,7 @@ JSX = **JavaScript + HTML এর মতো syntax**। React এ UI বানা
 </div>
 ```
 
-**Fragment:** extra `<div>` ছাড়া multiple elements return করতে দেয়।
+👉 Return multiple elements without extra `<div>`
 
 ```jsx
 <>
@@ -36,7 +37,8 @@ JSX = **JavaScript + HTML এর মতো syntax**। React এ UI বানা
 
 ## 2️⃣ JavaScript Expression
 
-**Explanation:** JSX এর ভিতরে `{}` দিয়ে JS ব্যবহার করা যায়।
+👉 Use `{}` in JSX to insert JavaScript.
+
 **Example:**
 
 ```jsx
@@ -47,9 +49,10 @@ const name = "Diya";
 
 ---
 
-## 3️⃣ class → className
+## 3️⃣ class → className 
 
-**Explanation:** HTML এর `class` React JSX এ `className` হয়।
+👉 In JSX, class becomes `className`.
+
 **Example:**
 
 ```jsx
@@ -58,9 +61,10 @@ const name = "Diya";
 
 ---
 
-## 4️⃣ Self Closing Tags
+## 4️⃣ Self Closing Tags 
 
-**Explanation:** HTML এর কিছু tag self-closing হয়। JSX এও same।
+👉 JSX supports `self‑closing tags(<img />)`, same as HTML.
+
 **Example:**
 
 ```jsx
@@ -73,7 +77,8 @@ const name = "Diya";
 
 ## 5️⃣ Inline CSS
 
-**Explanation:** JSX এ style **object** আকারে লিখতে হয়।
+👉 In JSX, style is written as an `object{{color: "red"}}`.
+
 **Example:**
 
 ```jsx
@@ -84,7 +89,8 @@ const name = "Diya";
 
 ## 6️⃣ Component Return JSX
 
-**Explanation:** Component UI return করার জন্য JSX use করে।
+👉 JSX starts after `return with <div> ... </div>`, which defines the component UI.
+
 **Example:**
 
 ```jsx
@@ -101,7 +107,8 @@ function Card() {
 
 ## 7️⃣ Short Summary
 
-* JSX = **HTML-like JavaScript**
+* JSX = **Combined of HTML and JavaScript**
+
 * Rules:
 
   1. One parent element / Fragment
